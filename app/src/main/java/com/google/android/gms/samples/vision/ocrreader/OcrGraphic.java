@@ -91,5 +91,20 @@ public class OcrGraphic extends GraphicOverlay.Graphic {
     @Override
     public void draw(Canvas canvas) {
         // TODO: Draw the text onto the canvas.
+        if (mText == null) return;
+
+        RectF rect = new RectF(mText.getBoundingBox());
+        rect.left = translateX(rect.left);
+        rect.top = translateY(rect.top);
+        rect.right = translateX(rect.right);
+        rect.bottom = translateY(rect.bottom);
+        canvas.drawRect(rect, sRectPaint);
+
+        List<? extends Text> textComponents= mText.getComponents();
+        for (Text currentText : textComponents) {
+            float left = translateX(currentText.getBoundingBox().left);
+            float bottom = translateY(currentText.getBoundingBox().bottom);
+            canvas.drawText(currentText.getValue(), left, bottom, sTextPaint);
+        }
     }
 }
