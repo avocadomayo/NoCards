@@ -2731,7 +2731,6 @@ containing a value of this type.
         public static final int cancel_action=0x7f0c007f;
         public static final int capture=0x7f0c008e;
         public static final int captureButton=0x7f0c008f;
-        public static final int capturedImage=0x7f0c0090;
         public static final int center=0x7f0c0023;
         public static final int center_horizontal=0x7f0c0024;
         public static final int center_vertical=0x7f0c0025;
@@ -2907,11 +2906,10 @@ containing a value of this type.
         public static final int notification_template_part_chronometer=0x7f03002d;
         public static final int notification_template_part_time=0x7f03002e;
         public static final int ocr_capture=0x7f03002f;
-        public static final int photo_capture=0x7f030030;
-        public static final int select_dialog_item_material=0x7f030031;
-        public static final int select_dialog_multichoice_material=0x7f030032;
-        public static final int select_dialog_singlechoice_material=0x7f030033;
-        public static final int support_simple_spinner_dropdown_item=0x7f030034;
+        public static final int select_dialog_item_material=0x7f030030;
+        public static final int select_dialog_multichoice_material=0x7f030031;
+        public static final int select_dialog_singlechoice_material=0x7f030032;
+        public static final int support_simple_spinner_dropdown_item=0x7f030033;
     }
     public static final class raw {
         public static final int credential=0x7f050000;

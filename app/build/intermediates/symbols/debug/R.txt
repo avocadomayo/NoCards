@@ -725,7 +725,6 @@ int id buttonPanel 0x7f0c004e
 int id cancel_action 0x7f0c007f
 int id capture 0x7f0c008e
 int id captureButton 0x7f0c008f
-int id capturedImage 0x7f0c0090
 int id center 0x7f0c0023
 int id center_horizontal 0x7f0c0024
 int id center_vertical 0x7f0c0025
@@ -897,11 +896,10 @@ int layout notification_template_media 0x7f03002c
 int layout notification_template_part_chronometer 0x7f03002d
 int layout notification_template_part_time 0x7f03002e
 int layout ocr_capture 0x7f03002f
-int layout photo_capture 0x7f030030
-int layout select_dialog_item_material 0x7f030031
-int layout select_dialog_multichoice_material 0x7f030032
-int layout select_dialog_singlechoice_material 0x7f030033
-int layout support_simple_spinner_dropdown_item 0x7f030034
+int layout select_dialog_item_material 0x7f030030
+int layout select_dialog_multichoice_material 0x7f030031
+int layout select_dialog_singlechoice_material 0x7f030032
+int layout support_simple_spinner_dropdown_item 0x7f030033
 int raw credential 0x7f050000
 int string abc_action_bar_home_description 0x7f060000
 int string abc_action_bar_home_description_format 0x7f060001
